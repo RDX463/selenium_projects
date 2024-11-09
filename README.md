@@ -17,6 +17,5 @@ testUnsuccessfulLogin(): This test checks the behavior when invalid credentials 
 
 @AfterAll: This annotation ensures that after all tests have completed, the browser is closed to free up resources.
 
-''' To Run:
-mvn test
-'''
+## To Run: 
+    mvn test
