@@ -1,10 +1,10 @@
-##Tools Required:
+## Tools Required:
 1.Selenium WebDriver
 2.JUnit
 3.Maven (for dependency management)
 4.ChromeDriver or GeckoDriver (for running tests on Chrome or Firefox)
 
-##Explanation:
+## Explanation:
 @BeforeAll: This annotation is used for setup, where we initialize the WebDriver. In this case, we're using WebDriverManager to automatically manage the ChromeDriver executable.
 
 testLoginPageTitle(): This test ensures that the title of the login page is correct.
@@ -17,6 +17,6 @@ testUnsuccessfulLogin(): This test checks the behavior when invalid credentials 
 
 @AfterAll: This annotation ensures that after all tests have completed, the browser is closed to free up resources.
 
-'''To Run:
+''' To Run:
 mvn test
 '''
